@@ -97,7 +97,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             return
         }
         
-        backboardNode.position = SCNVector3(x: 0, y: 0.5, z: -3)
+        backboardNode.position = SCNVector3(x: 0, y: -0.5, z: -3)
         
         // Adding backboard interaction so the ball doesn't pass through
         // concavePolyhedron takes into concideration the entire 3D obj, including the hole of the hoop
